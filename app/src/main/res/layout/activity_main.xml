@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tV0"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/str_tv0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iV0"
+        android:layout_width="237dp"
+        android:layout_height="188dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV0"
+        app:srcCompat="@drawable/syokuji" />
+
+    <Button
+        android:id="@+id/bt0"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/button0"
+        app:layout_constraintBottom_toTopOf="@+id/bt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV0" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="84dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/iB0"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tuika" />
+
+</android.support.constraint.ConstraintLayout>

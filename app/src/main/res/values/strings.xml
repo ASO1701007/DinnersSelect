@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dinners　Select</string>
+    <string name="str_tv0">ばんごはんなあに</string>
+    <string name="button0">ばんごはん選択</string>
+    <string name="button1">返事選択</string>
+    <string name="str_tv1">おすすめ献立</string>
+    <string name="str_tv2">過去の献立</string>
+    <string name="str_tv3">選択した献立</string>
+</resources>
